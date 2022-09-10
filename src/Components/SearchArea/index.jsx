@@ -10,11 +10,21 @@ const SearchArea = () => {
         <span className="main-heading">Search</span>
       </nav>
       <div className="text-box">
-        <Input
+        {/* <Input
           type="text"
           placeholder="Food name"
           prefix={<SearchOutlined />}
+        /> */}
+        <SearchOutlined
+          size={10}
+          style={{
+            position: "absolute",
+            left: "30px",
+            color: "#30384d",
+            bottom: "2rem",
+          }}
         />
+        <input type="text" placeholder="Food name" className="searchbar" />
       </div>
     </div>
   );
