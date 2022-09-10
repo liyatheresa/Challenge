@@ -1,5 +1,4 @@
 import React from "react";
-import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import "./SearchArea.css";
 
@@ -10,11 +9,6 @@ const SearchArea = () => {
         <span className="main-heading">Search</span>
       </nav>
       <div className="text-box">
-        {/* <Input
-          type="text"
-          placeholder="Food name"
-          prefix={<SearchOutlined />}
-        /> */}
         <SearchOutlined
           size={10}
           style={{
